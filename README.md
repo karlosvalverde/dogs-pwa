@@ -1,6 +1,8 @@
 # DogsPwa
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+Live version [here](https://dogs-pwa.netlify.app)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1, and uses [dog-ceo-api](https://github.com/ElliottLandsborough/dog-ceo-api)
+to fetch the data.
 
 ## Development server
 
