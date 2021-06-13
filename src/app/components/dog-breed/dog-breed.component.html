@@ -1,0 +1,11 @@
+<div class="container-fluid pt-lg-5 my-5 overflow-hidden">
+  <div class="row mt-5 pt-5">
+    <a
+      *ngFor="let dog of dogs"
+      href="{{dog.picture}}" target="_blank"
+      class="col-4 animate__animated animate__bounce animate__fadeIn"
+    >
+      <img class="w-100 mx-lg-5 my-3 rounded" src="{{dog.picture}}"/>
+    </a>
+  </div>
+</div>

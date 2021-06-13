@@ -1,0 +1,11 @@
+<div class="container pt-5 my-5">
+  <div class="row mt-5 pt-5">
+    <a
+      *ngFor="let dog of dogs"
+      [routerLink]="['/breed', dog.breed]"
+      class="col p-5 m-3 btn btn-outline-primary text-capitalize animate__animated animate__bounce animate__fadeIn"
+    >
+      <h2>{{dog.breed}}</h2>
+    </a>
+  </div>
+</div>
